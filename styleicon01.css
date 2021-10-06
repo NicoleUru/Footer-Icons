@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;/**/
+    background: #262626;
+
+}
+ 
+ul{
+    display: flex;
+    
+}
+
+ul li{
+    position: relative;
+    display: block;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    background: #171515;
+    border-radius: 50%;
+    margin: 0 15px;
+    text-align: center;
+    cursor: pointer;
+    
+
+}
+
+
+.icon-link{
+    color: #777;/*debes crear esta clase en el a simpre que
+    quiras iconos con links*/
+    
+}
+/*FACEBOOK*/
+.icon-link-facebook:hover{
+    color: #4267B2;
+    text-shadow: 0 0 15px #4267B2;
+    transition: 0.3s;
+  /*  box-shadow: 0 0 15px #64bdd37a;*/
+  
+}
+
+.li-facebook:hover{
+    border: 0.3px solid #4267B2;
+    box-shadow: 0 0 15px #4267B2;
+    
+}
+
+/*TWITTER*/
+.icon-link-twitter:hover{
+    color: #4267B2;
+    text-shadow: 0 0 15px #4267B2;
+    transition: 0.3s;
+  /*  box-shadow: 0 0 15px #64bdd37a;*/
+  
+}
+
+.li-twitter:hover{
+    border: 0.3px solid #4267B2;
+    box-shadow: 0 0 15px #4267B2;
+    
+}
+
+/*iNSTAGRAM*/
+.icon-link-instagram:hover{
+    color: PINK;
+    text-shadow: 0 0 15px #E1306C;
+    transition: 0.3s;
+  /*  box-shadow: 0 0 15px #64bdd37a;*/
+  
+}
+
+.li-instagram:hover{
+    border: 0.5px solid #E1306C;
+    box-shadow: 0 0 15px #E1306C;
+    
+}
+
+/*WHATSAPP*/
+
+/*YOUTUBE*/
+.icon-link-youtube:hover{
+    color: red;
+    text-shadow: 0 0 15px #ff0000;
+    transition: 0.3s;
+  /*  box-shadow: 0 0 15px #64bdd37a;*/
+  
+}
+
+.li-youtube:hover{
+    border: 0.5px solid red;
+    box-shadow: 0 0 15px #ff0000;
+    
+}
+
+.icon-link-whatsapp:hover{
+    color: rgb(60, 231, 60);
+    text-shadow: 0 0 15px rgb(112, 212, 112);
+    transition: 0.3s;
+  /*  box-shadow: 0 0 15px #64bdd37a;*/
+  
+}
+
+.li-whatsapp:hover{
+    border: 0.5px solid rgb(60, 231, 60) ;
+    box-shadow: 0 0 15px rgb(112, 212, 112);
+    
+}
+
+
